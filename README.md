@@ -6,7 +6,7 @@ NeuVector 有一個名為 nvprotect 的內部保護機制，用來限制使用�
 使用方法：
 ```
 $ git clone https://github.com/cooloo9871/Disable-nvprotect.git
-$ cd disable-nvprotect
+$ cd Disable-nvprotect
 $ chmod +x disable-nvprotect.sh
 
 # 關閉 nvprotect
