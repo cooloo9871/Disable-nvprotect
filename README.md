@@ -5,14 +5,14 @@ NeuVector 有一個名為 nvprotect 的內部保護機制，用來限制使用�
 
 使用方法：
 ```
-git clone https://github.com/warnerchen/disable-nvprotect.git
-cd disable-nvprotect
-chmod +x disable-nvprotect.sh
+$ git clone https://github.com/cooloo9871/Disable-nvprotect.git
+$ cd disable-nvprotect
+$ chmod +x disable-nvprotect.sh
 
 # 關閉 nvprotect
 # 關閉 enforcer 即可同時關閉 scanner 的 nvprotect
-./disable-nvprotect.sh off controller|enforcer
+$ ./disable-nvprotect.sh off controller|enforcer
 
 # 開啟 nvprotect
-./disable-nvprotect.sh on controller|enforcer
+$ ./disable-nvprotect.sh on controller|enforcer
 ```
